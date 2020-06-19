@@ -801,6 +801,15 @@ properly.
 	margin-right: auto !important;
 	text-align: center !important;
 }
+.skillsul li{
+    float:left;
+    padding: 16px;
+}
+.upperlist{
+   font-size: 10px;
+   color: black;
+   font-weight: bold;
+}
 
 
 

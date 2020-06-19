@@ -43,7 +43,7 @@ export default class Footer extends Component {
                   </a>
                 </li>
               </ul>
-              <ul className="copyright">
+              {/* <ul className="copyright">
                 <li>© Copyright 2014 CeeVee</li>
                 <li>
                   Design by{" "}
@@ -51,7 +51,7 @@ export default class Footer extends Component {
                     Styleshout
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
             <div id="go-top">
               <a className="smoothscroll" title="Back to Top" href="#home">

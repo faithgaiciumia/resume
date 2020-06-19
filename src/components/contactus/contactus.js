@@ -7,16 +7,12 @@ export default class Contactus extends Component {
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>
-                <span>Get In Touch.</span>
+                <span>Hire me 😄 </span>
               </h1>
             </div>
             <div className="ten columns">
               <p className="lead">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit.
+                You can reach out to me and we could discuss your project needs.
               </p>
             </div>
           </div>
@@ -93,15 +89,15 @@ export default class Contactus extends Component {
               <div className="widget widget_contact">
                 <h4>Address and Phone</h4>
                 <p className="address">
-                  Jonathan Doe
+                  Faith Gaiciumia
                   <br />
-                  1600 Amphitheatre Parkway <br />
-                  Mountain View, CA 94043 US
+                  faithgaiciumia078@gmail.com <br />
+                 2050-00400 Nairobi, Kenya
                   <br />
-                  <span>(123) 456-7890</span>
+                  <span>(254) 791084892</span>
                 </p>
               </div>
-              <div className="widget widget_tweets">
+              {/* <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
                   <li>
@@ -128,7 +124,7 @@ export default class Contactus extends Component {
                     </b>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </aside>
           </div>
         </section>

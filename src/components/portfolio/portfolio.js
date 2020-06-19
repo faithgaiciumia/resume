@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import calc from "./portfolioone.PNG";
+import recipe from "./portfoliotwo.PNG";
+import writing from "./portfoliothree.jpg";
 export default class Portfolio extends Component {
   render() {
     return (
@@ -15,24 +18,23 @@ export default class Portfolio extends Component {
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>University of Life</h3>
+                  <h3>Zalego Institute of Technology </h3>
                   <p className="info">
-                    Master in Graphic Design <span>•</span>{" "}
-                    <em className="date">April 2007</em>
+                    Certificate in Software Development <span>•</span>{" "}
+                    <em className="date">August 2016</em>
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                    eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Donec pede justo, fringilla vel, aliquet nec, vulputate
-                    eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                    I attended an intense 6-month course where I was introduced
+                    to programming in general and further learn on Android
+                    mobile app development, USSD and SMS integration, C and C#
+                    languages as well as important programming concepts such as
+                    data structures and algorithms that have helped me be a
+                    better developer with time.
                   </p>
                 </div>
               </div>{" "}
               {/* item end */}
-              <div className="row item">
+              {/* <div className="row item">
                 <div className="twelve columns">
                   <h3>School of Cool Designers</h3>
                   <p className="info">
@@ -49,7 +51,7 @@ export default class Portfolio extends Component {
                     Sed non mauris vitae erat
                   </p>
                 </div>
-              </div>{" "}
+              </div>{" "} */}
               {/* item end */}
             </div>{" "}
             {/* main-col end */}
@@ -60,48 +62,89 @@ export default class Portfolio extends Component {
           <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Work</span>
+                <span>Projects</span>
               </h1>
             </div>
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Awesome Design Studio</h3>
+                  <h3>React-Calculator</h3>
                   <p className="info">
-                    Senior UX Designer <span>•</span>{" "}
-                    <em className="date">March 2010 - Present</em>
+                    {/* Senior UX Designer <span>•</span>{" "}
+                    <em className="date">March 2010 - Present</em> */}
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                    eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Donec pede justo, fringilla vel, aliquet nec, vulputate
-                    eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                    I created this ReactJS Calculator as part of my practice
+                    projects as I learnt React basics. You could check it out{" "}
+                    <a href="https://faithgaiciumia.github.io/reactcalculator/">
+                      here.
+                    </a>{" "}
+                    The calculator is also responsive and adjusts appropriately
+                    in all screen sizes.
+                  </p>
+                  <p>
+                    <img src={calc} alt="logo" />
                   </p>
                 </div>
               </div>{" "}
               {/* item end */}
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Super Cool Studio</h3>
+                  <h3>Recipe App</h3>
                   <p className="info">
-                    UX Designer <span>•</span>{" "}
-                    <em className="date">March 2007 - February 2010</em>
+                    {/* UX Designer <span>•</span>{" "}
+                    <em className="date">March 2007 - February 2010</em> */}
                   </p>
                   <p>
-                    This is Photoshop's version of Lorem Ipsum. Proin gravida
-                    nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                    quis bibendum auctor, nisi elit consequat ipsum, nec
-                    sagittis sem nibh id elit. Duis sed odio sit amet nibh
-                    vulputate cursus a sit amet mauris. Morbi accumsan ipsum
-                    velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
-                    Sed non mauris vitae erat
+                    This is a ReactJs Recipe app whereby the user can search for
+                    their favorite recipes, view the recipes and also view
+                    random meal recipes. The project is still under development.
+                    This is a brief part of the UI. This recipe app uses MealDB
+                    API to access the meals and their respective information.
+                    The project also utilizes react-bootstrap. You can check out
+                    the github repo for this project{" "}
+                    <a href="https://github.com/faithgaiciumia/reactrecipe">
+                      here
+                    </a>
+                  </p>
+                  <p>
+                    <img src={recipe} alt="logo" />
                   </p>
                 </div>
               </div>{" "}
               {/* item end */}
+              <div className="row item">
+                <div className="twelve columns">
+                  <h3>Technical Articles</h3>
+                  <p className="info">
+                    {/* UX Designer <span>•</span>{" "}
+                    <em className="date">March 2007 - February 2010</em> */}
+                  </p>
+                  <p>
+                    Besides building projects, I also enjoy writing articles
+                    where I share what I have learnt. I also use these articles
+                    as a reminder for key concepts in the different languages,
+                    libraries and frameworks I use. So far, I have published
+                    three technical articles; two on Medium and the other on
+                    Hashnode.
+                    <a href="https://medium.com/@faithgaiciumia078/getting-started-with-reactjs-d95dc70dba8?source=your_stories_page---------------------------">
+                      Article One
+                    </a>
+                    ,{" "}
+                    <a href="https://medium.com/@faithgaiciumia078/creating-your-first-create-react-app-55fd2d49a740?source=your_stories_page---------------------------">
+                      Article two
+                    </a>
+                    ,{" "}
+                    <a href="https://hashnode.com/post/creating-a-simple-website-using-html-ckbfdt3uc01fbcls1lvx5id5e">
+                      Article three
+                    </a>
+                    .
+                  </p>
+                  <p>
+                    <img src={writing} alt="writing" />
+                  </p>
+                </div>
+              </div>
             </div>{" "}
             {/* main-col end */}
           </div>{" "}
@@ -114,43 +157,62 @@ export default class Portfolio extends Component {
                 <span>Skills</span>
               </h1>
             </div>
-            <div className="nine columns main-col">
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt.
-              </p>
-              <div className="bars">
-                <ul className="skills">
+            <div className="nine columns main-col">              
+              <div>
+                <ul>
                   <li>
-                    <span className="bar-expand photoshop" />
-                    <em>Photoshop</em>
-                  </li>
-                  <li>
-                    <span className="bar-expand illustrator" />
-                    <em>Illustrator</em>
-                  </li>
-                  <li>
-                    <span className="bar-expand wordpress" />
-                    <em>Wordpress</em>
-                  </li>
-                  <li>
-                    <span className="bar-expand css" />
-                    <em>CSS</em>
-                  </li>
-                  <li>
-                    <span className="bar-expand html5" />
-                    <em>HTML5</em>
-                  </li>
-                  <li>
-                    <span className="bar-expand jquery" />
-                    <em>jQuery</em>
-                  </li>
+                    <h3>Languages</h3>
+                    <ul>
+                      <li>CSS3</li>
+                      <li>HTML5</li>
+                      <li>Javascript</li>
+                      <li>ES6</li>
+                      <li>Python</li>
+                    </ul>
+                    </li>
+                  <li><h3>Framework</h3></li>
+                  <ul>
+                    <li>Redux</li>
+                    <li>Bootstrap</li>
+                    <li>Material-UI</li>
+                  </ul>
+                  <li><h3>Libraries/APIs</h3></li>
+                  <ul>
+                    <li>React</li>
+                    <li>jQuery</li>
+                    <li>Node.js</li>
+                    <li>REST APIs</li>
+                    <li>ngrx</li>
+                    <li>RxJS</li>
+                  </ul>
+                  <li><h3>Tools</h3></li>
+                  <ul>
+                    <li>Git</li>
+                    <li>Webpack 2</li>
+                  </ul>
+                  <li><h3>Paradigms</h3></li>
+                  <ul>
+                    <li>Distributed Programming</li>
+                    <li>REST</li>
+                    <li>Object-Oriented Design(OOD)</li>
+                    <li>Test-Driven Development(TDD)</li>
+                    <li>Agile Software Development</li>
+                  </ul>
+                  <li><h3>Platforms/Other</h3></li>
+                  <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Firebase</li>
+                    <li>Windows</li>
+                    <li>Responsive Designs</li>
+                    <li>Progressive Web Applications(PWA)</li>
+                  </ul>
+                  <li><h3>Storage</h3></li>
+                  <ul>
+                    <li>Cloud Firestore</li>
+                    <li>MongoDB</li>
+                  </ul>
                 </ul>
+
               </div>
               {/* end skill-bars */}
             </div>{" "}
