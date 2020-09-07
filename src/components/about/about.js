@@ -5,13 +5,27 @@ export default class About extends Component {
       <React.Fragment>
         <section id="about">
           <div className="row">
-            <div className="three columns">
-              <img className="profile-pic" src="images/profilepic.jpg" alt="" />
-            </div>
             <div className="nine columns main-col">
               <h2>About Me</h2>
               <p>
-                I am a passionate front-end web developer who has worked on different stacks before but moved permanently to web development an year ago. I have worked with mobile application development and did not find it as satisfying as web development. Hence settling on my new found love; web development. I love developing web applications and using these techniques to solve simple problems. 
+                I am a developer currently perfecting my skills on Front-End Web
+                Development and looking forward to moving into Full-Stack Web
+                Development. I started general programming 4 years ago. I
+                started out with Native Android Programming. I later on moved to
+                creation of Hybrid Mobile Applications with Flutter and Ionic.
+              </p>
+              <p>
+                During my interaction with Ionic, I used Typescript which was
+                much familiar with Javascript. After some research, I decided to
+                shift to Web Development. I started by learning simple HTML,CSS
+                and Javascript then moved on to ReactJS.
+              </p>
+              <p>
+                So far, I am conversant with implementing UI Designs and wiring
+                them up using either Vanilla Javascript or ReactJS. I am also
+                able to communicate with the backend through RestAPIs. I am
+                currently learning on how to implement FullStack projects with
+                MERN stack.(MongoDB, ExpressJS, ReactJS and Node.).
               </p>
               <div className="row">
                 <div className="columns contact-details">
@@ -27,21 +41,11 @@ export default class About extends Component {
                     <br />
                     <span>(+254)791084892</span>
                     <br />
-                    {/* <span>anyone@website.com</span> */}
                   </p>
                 </div>
-                <div className="columns download">
-                  {/* <p>
-                    <a href="#" className="button">
-                      <i className="fa fa-download" />
-                      Download Resume
-                    </a>
-                  </p> */}
-                </div>
+                <div className="columns download"></div>
               </div>{" "}
-              {/* end row */}
             </div>{" "}
-            {/* end .main-col */}
           </div>
         </section>
       </React.Fragment>
